@@ -2,46 +2,48 @@
 
 ## How to use with Docker
 
-#First you need to install docker:
+### First you need to install docker:
 ```
 $ https://docs.docker.com/get-docker/
 ```
 
-# Pull from docker
+### Pull from docker
 ```
 $ docker pull tliiva/tic-tac-toe-game
 ```
-# To run
+### To run
 ```
 $ docker run -dp 8000:3000 --name tic-tac-toe-game tliiva/tic-tac-toe-game
 ```
 
 ## OR 
 
-# First you need to install docker:
+### First you need to install docker:
 ```
 $ https://docs.docker.com/get-docker/
 ```
 
-# Clone this repository
+### Clone this repository
 ```
 $ https://github.com/TLiiv/TIC-TAC-TOE-GAME.git
 ```
 
-# Go into the repository
+### Go into the repository
 ```
 $ cd TIC-TAC-TOE-GAME
 ```
 
-# Build image
+### Build image
 ```
 $ docker build -t TLiiv/tic-tac-toe-game .
 ```
 
-# Run container from image
+### Run container from image
 ```
 $ docker run -p 3000:3000 TLiiv/tic-tac-toe-game
 ```
+## :book Probleemid
+Dockeri juhend oli suhteliselt selge kui välja arvata dockeri filei enda tegemine ja setup. Pidin eraldi googeldama, et aru saada, mida commandidega tegema peab. Alguses üritasin neid üldse terminali kirjutada. Dockerisse sisse logimisel läbi terminali tekkisid ka probleemid, millegi pärast parooli ei tahtnud vastu võtta pidin tokeni genereerima.  Mingisuguseid pisemaid häireid oli ka. Githubiga pidin natuke jamama kuna commitisin main branchi mitte masterisse ja seal tekkisid ebakõlad.
 
 
 
