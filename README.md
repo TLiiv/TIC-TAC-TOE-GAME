@@ -1,35 +1,48 @@
 <h1 align="center">TIC-TAC-TOE-GAME</h1>
 
 ## How to use with Docker
-```
+
 #First you need to install docker:
+```
 $ https://docs.docker.com/get-docker/
+```
 
 # Pull from docker
+```
 $ docker pull tliiva/tic-tac-toe-game
-
+```
 # To run
+```
 $ docker run -dp 8000:3000 --name tic-tac-toe-game tliiva/tic-tac-toe-game
 ```
-```
+
 ## OR 
 
 # First you need to install docker:
+```
 $ https://docs.docker.com/get-docker/
+```
 
 # Clone this repository
+```
 $ https://github.com/TLiiv/TIC-TAC-TOE-GAME.git
+```
 
 # Go into the repository
+```
 $ cd TIC-TAC-TOE-GAME
+```
 
 # Build image
+```
 $ docker build -t TLiiv/tic-tac-toe-game .
+```
 
 # Run container from image
-$ docker run -p 3000:3000 TLiiv/tic-tac-toe-game
-
 ```
+$ docker run -p 3000:3000 TLiiv/tic-tac-toe-game
+```
+
 
 
 ## :rocket: Knowledges
